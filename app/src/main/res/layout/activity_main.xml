@@ -4,15 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <RadioGroup
+        android:id="@+id/idRadioGroup"
+        android:layout_width="152dp"
+        android:layout_height="153dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027">
 
+        <RadioButton
+            android:id="@+id/idBtnJavaRadio"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Dodawanie"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:id="@+id/idBtnKotlinRadio"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Odhaczanie"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
