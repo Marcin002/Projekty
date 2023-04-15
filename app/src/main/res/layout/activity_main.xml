@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10px"
-        android:text="Marchewka"
+        android:text="@string/mar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.118"
@@ -62,7 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10px"
-        android:text="Ziemniak"
+        android:text="@string/zie"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.118"
@@ -77,7 +77,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10px"
-        android:text="Cebula"
+        android:text="@string/ceb"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.118"
@@ -92,7 +92,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10px"
-        android:text="Burak"
+        android:text="@string/bur"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.118"
@@ -107,7 +107,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10px"
-        android:text="Chleb"
+        android:text="@string/chl"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.455"
@@ -122,7 +122,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10px"
-        android:text="Bulka"
+        android:text="@string/bul"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.455"
@@ -138,7 +138,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10px"
-        android:text="Rogal"
+        android:text="@string/rog"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.455"
@@ -152,7 +152,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10px"
-        android:text="Chleb tostowy"
+        android:text="@string/cht"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.55"
@@ -166,7 +166,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10px"
-        android:text="Szynka"
+        android:text="@string/szy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.805"
@@ -180,7 +180,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10px"
-        android:text="Poledwica"
+        android:text="@string/pol"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.856"
@@ -206,7 +206,7 @@
             style="@style/Widget.MaterialComponents.Chip.Entry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Marechewka"
+            android:text="@string/mar"
             android:textColor="@color/red"
             />
 
@@ -215,7 +215,7 @@
             style="@style/Widget.MaterialComponents.Chip.Entry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ziemnaiak"
+            android:text="@string/zie"
             android:textColor="@color/red"
             />
 
@@ -224,7 +224,7 @@
             style="@style/Widget.MaterialComponents.Chip.Entry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cebula"
+            android:text="@string/ceb"
             android:textColor="@color/red"
             />
 
@@ -233,7 +233,7 @@
             style="@style/Widget.MaterialComponents.Chip.Entry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Burak"
+            android:text="@string/bur"
             android:textColor="@color/red"
             />
     </com.google.android.material.chip.ChipGroup>
@@ -254,7 +254,7 @@
             style="@style/Widget.MaterialComponents.Chip.Entry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Chleb"
+            android:text="@string/chl"
             android:textColor="@color/green" />
 
         <com.google.android.material.chip.Chip
@@ -262,7 +262,7 @@
             style="@style/Widget.MaterialComponents.Chip.Entry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bulka"
+            android:text="@string/bul"
             android:textColor="@color/green" />
 
         <com.google.android.material.chip.Chip
@@ -270,7 +270,7 @@
             style="@style/Widget.MaterialComponents.Chip.Entry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rogal"
+            android:text="@string/rog"
             android:textColor="@color/green" />
 
         <com.google.android.material.chip.Chip
@@ -278,7 +278,7 @@
             style="@style/Widget.MaterialComponents.Chip.Entry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Chleb tostowy"
+            android:text="@string/cht"
             android:textColor="@color/green" />
     </com.google.android.material.chip.ChipGroup>
 
@@ -299,7 +299,7 @@
             style="@style/Widget.MaterialComponents.Chip.Entry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Szynka"
+            android:text="@string/szy"
             android:textColor="@color/blue" />
 
         <com.google.android.material.chip.Chip
@@ -307,7 +307,7 @@
             style="@style/Widget.MaterialComponents.Chip.Entry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Poledwica"
+            android:text="@string/pol"
             android:textColor="@color/blue" />
     </com.google.android.material.chip.ChipGroup>
 

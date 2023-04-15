@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="mar">Marchewka</string>
+    <string name="zie">Ziemniak</string>
+    <string name="ceb">Cebula</string>
+    <string name="bur">Burak</string>
+
+    <string name="chl">Chleb</string>
+    <string name="bul">Bulka</string>
+    <string name="rog">Rogal</string>
+    <string name="cht">Chleb tostowy</string>
+
+    <string name="szy">Szynka</string>
+    <string name="pol">Poledwica</string>
+
+
 </resources>
