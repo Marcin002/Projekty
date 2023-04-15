@@ -115,6 +115,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
+
         }
         odejmowanie.setOnClickListener {
             check1.isVisible=false
