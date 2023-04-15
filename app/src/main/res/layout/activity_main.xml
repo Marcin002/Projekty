@@ -112,7 +112,9 @@
         app:layout_constraintHorizontal_bias="0.455"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.387" />
+        app:layout_constraintVertical_bias="0.387"
+        android:textColor="@color/green"
+        />
 
     <CheckBox
         android:id="@+id/checkBox6"
@@ -125,7 +127,10 @@
         app:layout_constraintHorizontal_bias="0.455"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.499"
+        android:textColor="@color/green"
+        />
+
 
     <CheckBox
         android:id="@+id/checkBox7"
@@ -138,7 +143,8 @@
         app:layout_constraintHorizontal_bias="0.455"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.632" />
+        app:layout_constraintVertical_bias="0.632"
+        android:textColor="@color/green"/>
 
     <CheckBox
         android:id="@+id/checkBox8"
@@ -151,7 +157,8 @@
         app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.754" />
+        app:layout_constraintVertical_bias="0.754"
+        android:textColor="@color/green"/>
 
     <CheckBox
         android:id="@+id/checkBox9"
@@ -164,7 +171,8 @@
         app:layout_constraintHorizontal_bias="0.805"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.386" />
+        app:layout_constraintVertical_bias="0.386"
+        android:textColor="@color/blue"/>
 
     <CheckBox
         android:id="@+id/checkBox10"
@@ -177,7 +185,8 @@
         app:layout_constraintHorizontal_bias="0.856"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.499"
+        android:textColor="@color/blue"/>
 
     <com.google.android.material.chip.ChipGroup
         android:id="@+id/chipGroup"

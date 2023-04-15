@@ -52,6 +52,7 @@ class MainActivity : AppCompatActivity() {
         check8.isVisible=false
         check9.isVisible=false
         check10.isVisible=false
+
         chip1.isVisible=false
         chip2.isVisible=false
         chip3.isVisible=false
