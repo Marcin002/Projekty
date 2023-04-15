@@ -81,6 +81,40 @@ class MainActivity : AppCompatActivity() {
             chip.isVisible=false
             chipg2.isVisible=false
             chipg3.isVisible=false
+
+            if(!chip1.isChecked){
+                check1.isChecked=false
+            }
+            if(!chip2.isChecked){
+                check2.isChecked=false
+            }
+            if(!chip3.isChecked){
+                check3.isChecked=false
+            }
+            if(!chip4.isChecked){
+                check4.isChecked=false
+            }
+            if(!chip5.isChecked){
+                check5.isChecked=false
+            }
+            if(!chip6.isChecked){
+                check6.isChecked=false
+            }
+            if(!chip7.isChecked){
+                check7.isChecked=false
+            }
+            if(!chip8.isChecked){
+                check8.isChecked=false
+            }
+            if(!chip9.isChecked){
+                check9.isChecked=false
+            }
+            if(!chip10.isChecked){
+                check10.isChecked=false
+            }
+
+
+
         }
         odejmowanie.setOnClickListener {
             check1.isVisible=false
